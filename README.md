@@ -120,6 +120,6 @@ We would love to help you with the challenge, but unfortunately we can't. 😉 T
 
 
 
-## Good luck! 🚀
+## Good luck! 🤞
 
 ![Radix](https://media-exp1.licdn.com/dms/image/C4D0BAQH7Tz0v-I5l1g/company-logo_200_200/0/1569474265425?e=2159024400&v=beta&t=TiThE4sfIokh1WfVN04aM7qgcI__285c2xkE0bEzCtA)
