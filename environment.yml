@@ -1,0 +1,18 @@
+# You may add dependencies, but please don't remove any!
+name: hiring-challenge-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - flake8==4.0.1
+  - isort==5.9.3
+  - mypy==0.910
+  - pip==21.2.4
+  - pydocstyle==6.1.1
+  - python~=3.8.13
+  - pip:
+      - fastapi==0.68.2
+      - pandas==1.3.5
+      - pygount==1.2.4
+      - python-multipart==0.0.5
+      - uvicorn==0.15.0
