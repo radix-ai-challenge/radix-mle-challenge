@@ -77,9 +77,6 @@ TEMP*
 reports/
 coverage/
 
-# Conda
-.envs/
-
 # Jupyter
 .ipynb_checkpoints/
 experiments/

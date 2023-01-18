@@ -39,8 +39,8 @@ On a high-level, the challenge is divided into three different tasks, each with 
 Windows users: Please be aware that this challenge relies on bash-scripts that cannot run natively on Windows. However, you can run both the `./init.sh` and `./run.sh` scripts on Windows using [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
 All users:
-1. Initialise the environment by running `./init.sh`. This will create the conda environment `hiring-challenge-env`. 
-2. Activate this environment by running `conda activate hiring-challenge-env`.
+1. Initialise the environment by running `./init.sh`. This will create a virtual environment `.env`. 
+2. To activate this environment, run `source .env/bin/activate`.
 3. Check if everything works properly by running `./run.sh`. This script should halt when calling the training endpoint, since this endpoint is not yet fully implemented.
 
 
@@ -59,7 +59,7 @@ The data used to train your solution will be downloaded automatically when runni
 <details>
 <summary>Here you can find an extensive list of the tasks you need to implement in order to complete the challenge:</summary>
 
-0. Run `init.sh` to create a conda environment in which the code can run
+0. Run `init.sh` to create a virtual environment in which the code can run
 1. In the `/genres/train` endpoint:
    1. Create a model
    2. Train the model on the received data
