@@ -27,12 +27,17 @@ On a high-level, the challenge is divided into three different tasks, each with 
 
 ## Getting started 🚀
 
-### GitLab setup
+### GitHub setup
 
-1. [Fork this repo](https://gitlab.com/radix-ai/radix-hiring-challenge/-/forks/new).
-2. In your forked challenge repo:
-   1. Go to `Settings > General > Visibility [...]` and set the project visibility to `Private`.
-   2. Go to `Settings > Members > Invite Member` and add `radixai-challenge` as a `Reporter` so we can follow along with your progress.
+1. Create a [new repository](https://github.com/new)
+   1. Name your repository as `{your-name}-radix-challenge`.
+   2. Make sure the repository is `Private`.
+2. After you created the repository:
+   1. Go to `Settings > Collaborators and teams > Add people` and add `RadixChallenge` (`challenge@radix.ai`) with `Read` permissions so we can follow along with your progress.
+   2. Clone the repository onto your machine.
+3. Once you have the repository local:
+   1. Download the hiring challenge as a [ZIP-file](https://github.com/radix-ai-challenge/radix-mle-challenge/archive/refs/heads/main.zip) and unpack thhis in your cloned repository.
+   2. Push the unzipped folder to GitHub to check if everything works.
 
 ### Local setup
 
